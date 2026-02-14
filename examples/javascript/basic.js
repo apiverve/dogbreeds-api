@@ -13,12 +13,7 @@ const API_URL = 'https://api.apiverve.com/v1/dogbreeds';
  */
 async function callDogBreedsAPI() {
   try {
-    // Query parameters
-    const params &#x3D; new URLSearchParams({
-            breed: &#x27;beagle&#x27;
-        });
-
-    const response = await fetch(`${API_URL}?${params}`, {
+    const response = await fetch(API_URL, {
       method: 'GET',
       headers: {
         'x-api-key': API_KEY
