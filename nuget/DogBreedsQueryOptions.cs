@@ -12,7 +12,6 @@ namespace APIVerve.API.DogBreeds
     {
         /// <summary>
         /// The name of the dog breed to get information about
-        /// Example: beagle
         /// </summary>
         [JsonProperty("breed")]
         public string Breed { get; set; }
