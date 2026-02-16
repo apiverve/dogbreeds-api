@@ -244,8 +244,9 @@ from apiverve_dogbreeds.apiClient import DogbreedsAPIClient
 
 api = DogbreedsAPIClient("[YOUR_API_KEY]")
 
+query = { "breed": "beagle" }
+
 try:
-    query = { "breed": "beagle" }
     result = api.execute(query)
     print(result)
 finally:
