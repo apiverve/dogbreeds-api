@@ -30,7 +30,11 @@ The Dog Breeds API provides a simple, reliable way to integrate dog breeds funct
 ```javascript
 async function callDogBreedsAPI() {
     try {
-        const response = await fetch('https://api.apiverve.com/v1/dogbreeds', {
+        const params = new URLSearchParams({
+            breed: 'beagle'
+        });
+
+        const response = await fetch(`https://api.apiverve.com/v1/dogbreeds?${params}`, {
             method: 'GET',
             headers: {
                 'x-api-key': 'YOUR_API_KEY_HERE'
@@ -50,7 +54,7 @@ callDogBreedsAPI();
 ### Using cURL
 
 ```bash
-curl -X GET "https://api.apiverve.com/v1/dogbreeds?param=value" \
+curl -X GET "https://api.apiverve.com/v1/dogbreeds?breed=beagle" \
   -H "x-api-key: YOUR_API_KEY_HERE"
 ```
 
@@ -150,7 +154,7 @@ go get github.com/apiverve/dogbreeds-api/go
 |---------|---------|
 | **Multi-language SDKs** | Native packages for JavaScript, Python, C#, Go, and Android |
 | **Simple Integration** | Single API key authentication, consistent response format |
-| **Production Ready** | 99.9% uptime, fast response times, used by thousands of developers |
+| **Production Ready** | 99.9% uptime SLA, served from 24 global regions |
 | **Comprehensive Docs** | Full examples, OpenAPI spec, and dedicated support |
 
 ---
@@ -169,7 +173,7 @@ go get github.com/apiverve/dogbreeds-api/go
 The Dog Breeds API is commonly used for:
 
 - **Web Applications** - Add dog breeds features to your frontend or backend
-- **Mobile Apps** - Native SDKs for iOS and Android development
+- **Mobile Apps** - Native SDKs for Android development
 - **Automation** - Integrate with n8n, Zapier, or custom workflows
 - **SaaS Products** - Enhance your product with dog breeds capabilities
 - **Data Pipelines** - Process and analyze data at scale
