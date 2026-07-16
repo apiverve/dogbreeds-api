@@ -25,6 +25,9 @@ namespace APIVerve.API.DogBreeds
 
         [JsonProperty("data")]
         public Data Data { get; set; }
+
+        [JsonProperty("premium")]
+        public Premium Premium { get; set; }
     }
 
     public partial class Data
@@ -33,7 +36,7 @@ namespace APIVerve.API.DogBreeds
         public string Breed { get; set; }
 
         [JsonProperty("foundCount")]
-        public long FoundCount { get; set; }
+        public long? FoundCount { get; set; }
 
         [JsonProperty("foundBreeds")]
         public FoundBreed[] FoundBreeds { get; set; }
@@ -66,27 +69,39 @@ namespace APIVerve.API.DogBreeds
     public partial class Height
     {
         [JsonProperty("lowerInches")]
-        public long LowerInches { get; set; }
+        public long? LowerInches { get; set; }
 
         [JsonProperty("upperInches")]
-        public long UpperInches { get; set; }
+        public long? UpperInches { get; set; }
     }
 
     public partial class LifeSpan
     {
         [JsonProperty("lowerYears")]
-        public long LowerYears { get; set; }
+        public long? LowerYears { get; set; }
 
         [JsonProperty("upperYears")]
-        public long UpperYears { get; set; }
+        public long? UpperYears { get; set; }
     }
 
     public partial class Weight
     {
         [JsonProperty("lowerLbs")]
-        public long LowerLbs { get; set; }
+        public long? LowerLbs { get; set; }
 
         [JsonProperty("upperLbs")]
-        public long UpperLbs { get; set; }
+        public long? UpperLbs { get; set; }
+    }
+
+    public partial class Premium
+    {
+        [JsonProperty("message")]
+        public string Message { get; set; }
+
+        [JsonProperty("upgrade_url")]
+        public Uri UpgradeUrl { get; set; }
+
+        [JsonProperty("locked_fields")]
+        public string[] LockedFields { get; set; }
     }
 }
