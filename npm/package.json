@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/dogbreeds",
-  "version": "1.2.0",
-  "description": "Dog Breeds is a simple tool for getting information about dog breeds. It returns information such as breed name, temperament, lifespan, and more.",
+  "version": "1.2.2",
+  "description": "Dog Breeds searches canine breed records by name to return official breed names and kennel club group classifications. Paid plans add height, weight, lifespan, traits, and original breeding purposes.",
   "main": "index.js",
   "types": "index.d.ts",
   "sideEffects": false,
@@ -23,7 +23,7 @@
     "directory": "npm"
   },
   "keywords": [
-    "dog breeds", "dog breeds api", "dog breeds tool", "dog breeds software", "dog breeds service"
+    "dog breed api", "dog breeds api", "dog api", "dog breed json", "dog breed lookup"
   ],
   "author": {
     "name": "APIVerve",
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/apiverve/dogbreeds-api/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/dogbreeds?utm_source=npm&utm_medium=homepage",
+  "homepage": "https://apiverve.com/marketplace/dogbreeds?utm_source=npm&utm_medium=referral&utm_content=homepage",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
