@@ -2,8 +2,9 @@ openapi: 3.0.4
 info:
   title: Dog Breeds
   description: >-
-    Dog Breeds is a simple tool for getting information about dog breeds. It
-    returns information such as breed name, temperament, lifespan, and more.
+    Dog Breeds searches canine breed records by name to return official breed
+    names and kennel club group classifications. Paid plans add height, weight,
+    lifespan, traits, and original breeding purposes.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -18,7 +19,7 @@ servers:
 paths:
   /v1/dogbreeds:
     get:
-      summary: Get Dog Breed Information
+      summary: Dog Breeds
       description: Get information about a specific dog breed
       operationId: dogbreeds
       parameters:
