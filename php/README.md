@@ -1,6 +1,6 @@
 # Dog Breeds API - PHP Package
 
-Dog Breeds is a simple tool for getting information about dog breeds. It returns information such as breed name, temperament, lifespan, and more.
+Dog Breeds searches canine breed records by name to return official breed names and kennel club group classifications. Paid plans add height, weight, lifespan, traits, and original breeding purposes.
 
 ## Installation
 
@@ -109,11 +109,11 @@ $client = new Client(
 
 ## Documentation
 
-For more information, visit the [API Documentation](https://docs.apiverve.com/ref/dogbreeds?utm_source=packagist&utm_medium=readme).
+For more information, visit the [API Documentation](https://docs.apiverve.com/ref/dogbreeds?utm_source=packagist&utm_medium=referral&utm_content=readme).
 
 ## Support
 
-- Website: [https://apiverve.com/marketplace/dogbreeds?utm_source=php&utm_medium=readme](https://apiverve.com/marketplace/dogbreeds?utm_source=php&utm_medium=readme)
+- Website: [https://apiverve.com/marketplace/dogbreeds?utm_source=php&utm_medium=referral&utm_content=readme](https://apiverve.com/marketplace/dogbreeds?utm_source=php&utm_medium=referral&utm_content=readme)
 - Email: hello@apiverve.com
 
 ## License
