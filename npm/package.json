@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/dogbreeds",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Dog Breeds searches canine breed records by name to return official breed names and kennel club group classifications. Paid plans add height, weight, lifespan, traits, and original breeding purposes.",
   "main": "index.js",
   "types": "index.d.ts",
