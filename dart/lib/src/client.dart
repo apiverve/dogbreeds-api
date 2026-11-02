@@ -46,7 +46,7 @@ final _formatPatterns = {
 
 /// Dog Breeds API client.
 ///
-/// For more information, visit: https://apiverve.com/marketplace/dogbreeds?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/dogbreeds?utm_source=dart&utm_medium=referral&utm_content=readme
 ///
 /// Parameters:
 /// * [breed] (required) - The name of the dog breed to get information about

@@ -1,7 +1,7 @@
 name: apiverve_dogbreeds
-description: Dog Breeds is a simple tool for getting information about dog breeds. It returns information such as breed name, temperament, lifespan, and more.
-version: 1.1.14
-homepage: https://apiverve.com/marketplace/dogbreeds?utm_source=dart&utm_medium=homepage
+description: "Dog Breeds searches canine breed records by name to return official breed names and kennel club group classifications. Paid plans add height, weight, lifespan, traits, and original breeding purposes."
+version: 1.2.4
+homepage: https://apiverve.com/marketplace/dogbreeds?utm_source=dart&utm_medium=referral&utm_content=homepage
 repository: https://github.com/apiverve/dogbreeds-api/tree/main/dart
 
 environment:
