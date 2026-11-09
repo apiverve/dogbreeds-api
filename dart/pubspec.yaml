@@ -1,6 +1,6 @@
 name: apiverve_dogbreeds
 description: "Dog Breeds searches canine breed records by name to return official breed names and kennel club group classifications. Paid plans add height, weight, lifespan, traits, and original breeding purposes."
-version: 1.2.4
+version: 1.2.5
 homepage: https://apiverve.com/marketplace/dogbreeds?utm_source=dart&utm_medium=referral&utm_content=homepage
 repository: https://github.com/apiverve/dogbreeds-api/tree/main/dart
 
